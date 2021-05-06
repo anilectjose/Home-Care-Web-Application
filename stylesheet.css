@@ -1,0 +1,215 @@
+/*input field and button*/
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+    body {
+        background: hsl(210, 45%, 60%);
+      }
+    
+  h1 {
+    margin-bottom: 5px;
+  }
+
+  header {
+    
+    background-color: hsl(210, 45%, 60%);
+    width: 100%;
+    height: 10px;
+    top: 0%;
+  }
+
+  main {
+    background-color: hsl(200, 60%,  100%);
+    border-radius: 20px;
+    max-width: 500px; 
+    margin: auto;
+    margin-bottom: 80px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+    top: 80px;
+  }
+
+  .title-text {
+    margin: auto;
+    margin-top: -5px;
+    text-align: center;
+  }
+  .title{
+    margin-top: 150px;
+  }
+
+  #survey-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #survey-fields {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-gap: 10px;
+  }
+  #submit {
+    margin: auto;
+    background-color: var(--background-c, lightgray);
+    border-radius: 8px;
+    padding: 5px 12px 5px 12px;
+    margin-top: 5px;
+    font-size: 85%;
+  }
+
+  input[type=submit] {
+    width: 80px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 4px 0 20px 160px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  input[type=reset] {
+    width: 80px;
+    height: 36px;
+    background-color: #ff3939;
+    color: white;
+    padding: 10px;
+    margin: 4px 0 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  input[type=button] {
+    width: 80px;
+    height: 36px;
+    background-color: #39b6ff;
+    color: white;
+    padding: 10px;
+    margin: 4px 0 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  input[type=text],[type=password],[type=email],[type=number] {
+    width: 180px;
+    padding: 5px;  
+    border-radius: 10px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+
+  input[type=reset]:hover {
+    background-color: #000000;
+  }
+
+  input[type=button]:hover {
+    background-color: #000000;
+  }
+
+  .aclass {
+    margin-left: 180px;
+    margin-top: 200px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    #survey-fields {
+      grid-template-columns: 1fr;
+    }
+
+    label {
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 600px) {
+    #survey-fields {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    label {
+      text-align: right;
+    }
+  }
+
+.common-div{
+    width:700px;
+    margin-left:200px;
+}
+/*card css*/
+.card-div-red{
+    width:200px;
+    height:45px;
+    margin: 0 10px 0 10px;
+    background-color: #FB1568;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    font-family:verdana;
+}
+.card-div-blue{
+    width:200px;
+    height:45px;
+    margin: 0 10px 0 10px;
+   background-color: #04C6BC ;
+   border-radius: 8px;
+   color: white;
+   padding: 20px;
+   font-family:verdana;
+}
+.card-div-green{
+    width:200px;
+    height:45px;
+    margin: 0 10px 0 10px;
+   background-color: #48DE53 ;
+   border-radius: 8px;
+   color: white;
+   padding: 20px;
+   font-family:verdana;
+}
+.card-div-yellow{
+    width:200px;
+    height:45px;
+    margin: 0 10px 0 10px;
+   background-color: #FEBC26 ;
+   border-radius: 8px;
+   color: white;
+   padding: 20px;
+   font-family:verdana; 
+}
+h4[class=card-div]{
+    margin-top:3px;
+    margin-left:4px;
+}
+#block_container {
+    display: flex;
+    width: 200%;
+
+}
+/*table css*/
+table {
+    border-collapse: collapse;
+    width: 150%;
+    margin-left: 30px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td:hover {background-color:#f5f5f5;}
+
+
+  /*card-detail*/
+  .card-detail{
+    background-color:#FEBC26;
+    font-family: verdana;
+  }
